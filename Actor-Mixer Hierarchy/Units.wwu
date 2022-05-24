@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E6CFB80A-31E4-4FB3-9449-C29B07073574}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Units" ID="{E6CFB80A-31E4-4FB3-9449-C29B07073574}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="units_pc" ID="{B27BEBE6-00A4-4FE0-A9F6-911A13C543CA}" ShortID="631331749">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="unit_babka" ID="{F6D7DAB4-1D8D-4B9C-8CFA-E8D9AC02D2AC}" ShortID="536742531">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="unit_babka_death" ID="{3AEC0E90-FB13-45E0-97F0-0DF3B1304A49}" ShortID="513562826">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="unit_babka_death" ID="{AA0D0F59-2DB2-407B-AFE3-7793F0952D43}">
+											<Language>SFX</Language>
+											<AudioFile>Units\units_pc\unit_babka_death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="365253950"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="unit_babka_death" ID="{AA0D0F59-2DB2-407B-AFE3-7793F0952D43}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Folder Name="attack" ID="{14742138-BFD1-4BF5-A0B5-3F1C44126DA1}" ShortID="1003357964">
+									<ChildrenList>
+										<RandomSequenceContainer Name="unit_babka_attack_normal" ID="{0C9810C4-50CF-49B6-B42C-DE52F144EDCE}" ShortID="771902907">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="babka_attack_normal" ID="{B5C28E7B-927A-41FC-8BF5-A7F2600DABE7}" ShortID="382002859">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="babka_attack_normal" ID="{7061565B-9065-4045-8B50-88738A9119BE}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0262216839750085"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.11588292595407"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.19285625633232"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.928755129179331"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\babka_attack_normal.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="82930041"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="babka_attack_normal" ID="{7061565B-9065-4045-8B50-88738A9119BE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="unit_babka_attack_ultra" ID="{15274EA9-18EE-4749-8E74-EBF885527B69}" ShortID="958610145">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="babka_attack_ultra" ID="{238BFEB5-D523-4745-A9FE-B89816DE0565}" ShortID="804912276">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="babka_attack_ultra" ID="{4A570E97-7CAE-47F9-A2CE-6D99669D1565}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0972644376899696"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.49138804457953"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.526849037487336"/>
+																<Property Name="TrimEnd" Type="Real64" Value="6.84903748733536"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\babka_attack_ultra.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="432952942"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="babka_attack_ultra" ID="{4A570E97-7CAE-47F9-A2CE-6D99669D1565}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="unit_babka_attack_whoosh" ID="{147013BC-2E26-4459-A30D-8139EB091A1E}" ShortID="811880385">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3D25B4EC-AE12-446E-A4C6-5EE74115554E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6C9A2A7B-BBC4-49DB-A83C-61C708F2A528}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="unit_babka_attack_whoosh" ID="{39034E25-02EA-434B-AE4B-0C49CF3D52E9}" ShortID="579314585">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="unit_babka_attack_whoosh" ID="{4C556686-03D5-445D-A296-E1C5842F9B60}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0780010008896797"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0433338893831554"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.268670114175564"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\unit_babka_attack_whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="206136251"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="unit_babka_attack_whoosh" ID="{4C556686-03D5-445D-A296-E1C5842F9B60}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="unit_babka_attack_whoosh_01" ID="{4715562B-FB42-4009-A882-6CF6DA3588C1}" ShortID="918558384">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="unit_babka_attack_whoosh" ID="{6FC3AD38-B709-4118-9E84-DFF4C9597D67}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0780010008896797"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.684675452253855"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.949012177491104"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\unit_babka_attack_whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="460744763"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="unit_babka_attack_whoosh" ID="{6FC3AD38-B709-4118-9E84-DFF4C9597D67}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="unit_babka_attack_whoosh_02" ID="{D9922F04-F04D-4C2D-BE4D-908B2BA065CA}" ShortID="147370794">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="unit_babka_attack_whoosh" ID="{EA6C3319-CEF9-4818-A16B-0A43D222D269}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0780010008896797"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.29660089973781"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.54736669771231"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\unit_babka_attack_whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="867693857"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="unit_babka_attack_whoosh" ID="{EA6C3319-CEF9-4818-A16B-0A43D222D269}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="unit_babka_attack_whoosh_03" ID="{266096B0-EDE3-42BB-8974-193597305B71}" ShortID="332181215">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="unit_babka_attack_whoosh" ID="{4C55B9E3-0308-4886-883F-760D11D97917}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0780010008896797"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.91346122986277"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.12721540802977"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\unit_babka_attack_whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="927346374"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="unit_babka_attack_whoosh" ID="{4C55B9E3-0308-4886-883F-760D11D97917}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="hit" ID="{EBCCDA34-3FAA-4A61-B864-F1E63304F2AE}" ShortID="62681615">
+									<ChildrenList>
+										<BlendContainer Name="unit_babka_hit_normal" ID="{704BD6CF-C416-46E4-9806-337A67A53E86}" ShortID="6732909">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="unit_babka_hit_normal_debree" ID="{CB3F608E-7C87-4804-A985-EF63A5AF7BCE}" ShortID="387839828">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.1</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{64CB307C-B17B-4B64-A604-D9E8E165A9EE}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="0.05"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{B057A6A9-6996-4A69-A26B-6CC08587A84A}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="200"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="unit_babka_hit_normal_01" ID="{CA2C2A57-52AB-4447-9127-FD49D472D0EB}" ShortID="637836060">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_babka_hit_normal_01" ID="{EEAB40C7-1F56-4658-973D-4C99EEEAE3D7}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0018579713356974"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.138020727794664"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0108824035376562"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_babka_hit_normal_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="119906823"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_babka_hit_normal_01" ID="{EEAB40C7-1F56-4658-973D-4C99EEEAE3D7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="unit_babka_hit_normal_02" ID="{3C5525AA-D289-4E02-B395-826C7058E80B}" ShortID="696616020">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_babka_hit_normal_02" ID="{E0E0C536-4A99-491F-9A6D-D96C3672AEE5}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.000805450016886204"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.143974190518406"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0146994628081729"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_babka_hit_normal_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1072105399"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_babka_hit_normal_02" ID="{E0E0C536-4A99-491F-9A6D-D96C3672AEE5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="unit_babka_hit_normal_punch" ID="{905564A2-1AEA-4EC1-B25B-FB38C5982C4C}" ShortID="245770069">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="unit_babka_hit_normal_03" ID="{62AC06CF-09F1-44F3-9F47-799EB5DC33F7}">
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\unit_babka_hit_normal_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="820700580"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="unit_babka_hit_normal_03" ID="{62AC06CF-09F1-44F3-9F47-799EB5DC33F7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="unit_babka_hit_ultra" ID="{AB6488CC-6626-45CD-B9FC-7B7974ADC46C}" ShortID="802873100">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="unit_babka_hit_ultra" ID="{E5039D6D-1E15-48F2-A7E8-950C92B76E9F}" ShortID="902953670">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="unit_babka_hit_ultra_debree" ID="{CC3D0C39-E975-4394-88BB-B8AC6ABC79DB}" ShortID="311404465">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_babka_hit_ultra_debree" ID="{99CAB36A-1D1D-4A84-9844-3B5A3976780B}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.225426186685414"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_babka_hit_ultra_debree.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="588821187"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_babka_hit_ultra_debree" ID="{99CAB36A-1D1D-4A84-9844-3B5A3976780B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="unit_babka_hit_ultra_debree_01" ID="{798C891D-A830-4D24-AF0E-6BA23B83B76A}" ShortID="365268527">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_babka_hit_ultra_debree_01" ID="{7447DFF3-EDF7-4556-8340-70FC95F0C4A5}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.134446362807196"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_babka_hit_ultra_debree_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="239525413"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_babka_hit_ultra_debree_01" ID="{7447DFF3-EDF7-4556-8340-70FC95F0C4A5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="unit_babka_hit_ultra_base" ID="{93095D34-BD5F-45EB-ADAE-5FCC97845E5A}" ShortID="754027662">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>580</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="unit_babka_hit_ultra" ID="{91CA5F81-175C-4920-9B6A-29FA1E317827}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00567686040981752"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.539301738932655"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\unit_babka_hit_ultra.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="462437824"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="unit_babka_hit_ultra" ID="{91CA5F81-175C-4920-9B6A-29FA1E317827}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

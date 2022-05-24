@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7528A7E1-4070-4FDB-9C42-DE1B896BBCF5}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Ambient" ID="{7528A7E1-4070-4FDB-9C42-DE1B896BBCF5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="01_map_forest" ID="{E0EBF06C-4071-4313-A677-F62AA7E9F52F}" ShortID="336494906">
+					<ChildrenList>
+						<Event Name="map_forest_enter" ID="{B02244BB-EB4D-4E6D-8A7B-BD49A7049FDC}">
+							<ChildrenList>
+								<Action Name="" ID="{AE111B11-55FA-442F-B1EB-0E82D357AB7E}" ShortID="784908975">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="01_map_forest_wind" ID="{F01468C9-F499-4E43-B8AF-7AEBC937B94F}" WorkUnitID="{CE1FE2F8-EA25-44D2-AE6E-D7824B588AE4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A4C02C41-7AB2-4918-BE09-0A7DEEDF9842}" ShortID="1035365849">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="4">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7C70C754-4138-4313-8103-68BA86177A38}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="01_map_forest_birds" ID="{14DFC0AF-0847-4343-BD31-FDC3E70C4BD1}" WorkUnitID="{CE1FE2F8-EA25-44D2-AE6E-D7824B588AE4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0F3950EE-B170-414C-8AD4-A7E9F88B69DE}" ShortID="10817803">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="01_map_forest_animals" ID="{9C4B2956-2A9C-42AD-B01C-CE96F8931E15}" WorkUnitID="{CE1FE2F8-EA25-44D2-AE6E-D7824B588AE4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6D0C95EA-B394-4C79-BB24-1E8A879C1619}" ShortID="39511715">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="01_map_forest_aircraft" ID="{20210CCC-C2CE-45BE-AA49-D05A19C821D8}" WorkUnitID="{CE1FE2F8-EA25-44D2-AE6E-D7824B588AE4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2FDF6866-0575-43D5-BD3C-5B0E0EDDDCF8}" ShortID="1066676765">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="01_map_forest_warfare" ID="{876FAC8A-7547-43E3-976B-6908ECBE043F}" WorkUnitID="{CE1FE2F8-EA25-44D2-AE6E-D7824B588AE4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

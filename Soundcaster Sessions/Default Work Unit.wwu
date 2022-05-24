@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{88444600-42B7-437D-85CA-3CF06D8D7E8B}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{88444600-42B7-437D-85CA-3CF06D8D7E8B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{06825B50-A766-4BEA-B31E-B12DBE527075}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="map_forest_enter" ID="{B02244BB-EB4D-4E6D-8A7B-BD49A7049FDC}" WorkUnitID="{7528A7E1-4070-4FDB-9C42-DE1B896BBCF5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="unit_babka_attack_normal" ID="{FCF8E4FC-7E72-41F2-A4E6-AA0CE28B9435}" WorkUnitID="{74A6B88B-9062-488D-BCE1-4B2789E33F2C}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="unit_babka_hit_normal" ID="{CB7D9546-4795-43E8-A4D5-57DDE328ED56}" WorkUnitID="{74A6B88B-9062-488D-BCE1-4B2789E33F2C}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="unit_babka_attack_ultra" ID="{8C7FA886-2AB0-4A1B-864C-DF82EC7B0565}" WorkUnitID="{74A6B88B-9062-488D-BCE1-4B2789E33F2C}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="unit_babka_hit_ultra" ID="{DBDEDB70-4DE9-415E-B5BA-2D7420DD84EA}" WorkUnitID="{74A6B88B-9062-488D-BCE1-4B2789E33F2C}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="unit_babka_death" ID="{F6F12ADF-C626-4F82-900F-C2F6CD285D5D}" WorkUnitID="{74A6B88B-9062-488D-BCE1-4B2789E33F2C}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

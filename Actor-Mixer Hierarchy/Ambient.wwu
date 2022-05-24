@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CE1FE2F8-EA25-44D2-AE6E-D7824B588AE4}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Ambient" ID="{CE1FE2F8-EA25-44D2-AE6E-D7824B588AE4}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="01_map_forest" ID="{BE77BF7B-810D-42D4-B483-65BD59A7E0B9}" ShortID="322274363">
+					<PropertyList>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="080_amb_maps" ID="{68FC8640-4257-4FCB-A61A-CEFC207B6F29}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="01_map_forest_wind" ID="{F01468C9-F499-4E43-B8AF-7AEBC937B94F}" ShortID="497845087">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="01_map_forest_wind" ID="{75889399-D2E4-4569-9626-698C08EB52F9}" ShortID="215609015">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_wind" ID="{FD1F602E-2BF1-4C7B-A85E-8A00C5CA667E}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="15"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_wind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="317485629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_wind" ID="{FD1F602E-2BF1-4C7B-A85E-8A00C5CA667E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_wind_01" ID="{8066CD37-9B82-4009-A044-C3F155BA033E}" ShortID="479766124">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="080_amb_maps" ID="{68FC8640-4257-4FCB-A61A-CEFC207B6F29}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_wind" ID="{DA7FB340-8061-4C6E-8518-021765E2885E}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="60"/>
+												<Property Name="TrimEnd" Type="Real64" Value="75.120731390866"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_wind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="812109265"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_wind" ID="{DA7FB340-8061-4C6E-8518-021765E2885E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_wind_02" ID="{E9B92562-3C1D-4A12-9B9D-7D9B12C2EA83}" ShortID="822398699">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="080_amb_maps" ID="{68FC8640-4257-4FCB-A61A-CEFC207B6F29}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_wind" ID="{3672CD8E-4690-4EE3-9440-213626364E70}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="30"/>
+												<Property Name="TrimEnd" Type="Real64" Value="45"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_wind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="147171664"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_wind" ID="{3672CD8E-4690-4EE3-9440-213626364E70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_wind_03" ID="{DAD13945-1D7D-45FC-BF77-1EF00DCC9AE8}" ShortID="761536948">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="080_amb_maps" ID="{68FC8640-4257-4FCB-A61A-CEFC207B6F29}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_wind" ID="{A4348834-758A-4E06-8C8D-FB04502E3EF8}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="45"/>
+												<Property Name="TrimEnd" Type="Real64" Value="60"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_wind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="828222469"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_wind" ID="{A4348834-758A-4E06-8C8D-FB04502E3EF8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="01_map_forest_birds" ID="{14DFC0AF-0847-4343-BD31-FDC3E70C4BD1}" ShortID="199599115">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6FBB3E44-EB0B-4DC3-98B1-0BB227E1A801}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="01_map_forest_birds_01" ID="{EC4EE35C-00DF-4BCE-96F8-EC8B770E3272}" ShortID="735068247">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F4F97744-19DE-4109-91B5-31D9CC855B3B}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FFD5FEFD-FC2F-442D-B700-9EC48E66BD4B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6078D8A8-FE45-4C47-88AB-14F08EE09CFB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5050FF47-63D8-47AC-B720-57FF08DACA8E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_birds_01" ID="{15B02179-0999-4435-9BA8-A3FF392EBF3C}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_birds_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="406376770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_birds_01" ID="{15B02179-0999-4435-9BA8-A3FF392EBF3C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_birds_02" ID="{C74D6C92-89B0-414C-A1CC-081E7AE8889A}" ShortID="262528794">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AFFB6D2C-5466-4E68-BC38-6F040E644FB7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AAB7F008-0F46-4097-9D5C-387BCA4FB2C3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C7B1EA8D-673F-45FC-B968-7802ADAF43D4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_birds_02" ID="{F05A43A9-95F2-44AB-875D-1ECDEE9E9F1B}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_birds_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="42255069"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_birds_02" ID="{F05A43A9-95F2-44AB-875D-1ECDEE9E9F1B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_birds_03" ID="{0C2751F7-AA6C-4886-8026-DD87CCD7F539}" ShortID="619850366">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{03BF1538-6D50-4746-8880-24E36BB432CF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{85DD0788-F0FB-4C1E-AB8B-1CD8330B9046}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{77E807D1-93DF-4735-921B-9EF6C799C2C4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_birds_03" ID="{47165277-1C8F-4C9B-A2B8-33B0CEF7A956}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_birds_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="554063972"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_birds_03" ID="{47165277-1C8F-4C9B-A2B8-33B0CEF7A956}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_birds_04" ID="{EDC9C3EE-C10C-4C2B-8851-141836221D13}" ShortID="125947413">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9A079C1C-6A19-4B65-AD47-865DA4069462}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8B3D80FE-B509-4B8B-AD24-E225BDCFB0B5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DA01E8BB-063E-405D-B845-62C8AF5F1D2E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_birds_04" ID="{547911EF-72AC-4CE8-858A-A3468C1BCCE9}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_birds_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="232256193"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_birds_04" ID="{547911EF-72AC-4CE8-858A-A3468C1BCCE9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_birds_05" ID="{7F49C9B1-0291-4E64-9329-982FB4C3BAA8}" ShortID="513915008">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A9E7CBA3-FDB0-485F-B803-752058601E32}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8E27C956-325F-43E0-A4CC-E2F7A9145EFE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4D77DC1D-694B-433B-8AD1-6203A152A485}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_birds_05" ID="{4652582F-4FD8-4D25-B537-DA089FD2555F}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_birds_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="124286794"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_birds_05" ID="{4652582F-4FD8-4D25-B537-DA089FD2555F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{A5482C8B-5802-4C11-A975-A709B88D1392}">
+									<PropertyList>
+										<Property Name="PanY" Type="Real64" Value="-4.44089209850063E-16"/>
+									</PropertyList>
+								</Panner>
+								<Position Name="" ID="{D569A690-2FB1-4845-90F6-E60DA4E27D49}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="01_map_forest_birds_Path" ID="{C0D469F9-4786-403D-AE91-C2C8C658712A}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="50"/>
+												<Property Name="RandomY" Type="Real64" Value="50"/>
+												<Property Name="RandomZ" Type="Real64" Value="50"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="01_map_forest_warfare" ID="{876FAC8A-7547-43E3-976B-6908ECBE043F}" ShortID="518360696">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{298CBF7F-E9CB-47C2-88A1-70D9E8BAFB50}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="01_map_foresr_warfare_01" ID="{539629C7-9B8A-46C0-ACDB-D95D1C194F21}" ShortID="114920329">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D0414854-336F-4871-AC78-48C6B6BB2726}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9629FBC0-0AF5-408D-8C9A-EFFB23EA3C18}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_foresr_warfare_01" ID="{C89CDDD0-7230-47BA-9A9F-810EAFE73D23}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.57802572060502"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.49692597745434"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_foresr_warfare_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="3654009"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_foresr_warfare_01" ID="{C89CDDD0-7230-47BA-9A9F-810EAFE73D23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_foresr_warfare_02" ID="{E4D193D3-6128-445A-90A8-F577117D9265}" ShortID="930952653">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FB5090E2-9FE7-4938-A180-7866C8B639CB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{812C5C8B-47BA-4CE1-B38D-C89375F0EE16}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_foresr_warfare_02" ID="{DA0E2801-ED9E-4702-81CC-E13F1F75F0B1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.38224657534247"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.32529452054794"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_foresr_warfare_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="96206518"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_foresr_warfare_02" ID="{DA0E2801-ED9E-4702-81CC-E13F1F75F0B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_foresr_warfare_03" ID="{3B5A35BE-6C3D-4EE9-8CA1-5C682B3C6A45}" ShortID="226972583">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9C85E847-B511-4ECB-8505-29DBA89BD776}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D51193E1-4545-4A42-ABD8-83C333FC3025}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_foresr_warfare_03" ID="{10021284-036F-44AE-8791-5AE8F9E40DA5}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.6888742330194"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.26726330622146"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_foresr_warfare_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1067672652"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_foresr_warfare_03" ID="{10021284-036F-44AE-8791-5AE8F9E40DA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_foresr_warfare_04" ID="{E349F3B4-CF38-4317-BF2F-2C743CFE9215}" ShortID="712820335">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{19C17156-7171-4782-9054-F4313B132141}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8B5B4FFE-872B-4A48-A4AF-75B872E237F8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B2395989-1C2D-476E-87FE-261ECDFEECED}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_foresr_warfare_04" ID="{A90AC261-CDCE-422B-AD27-7A657C3910A1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.18739319349315"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.97926835402397"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_foresr_warfare_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="317213514"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_foresr_warfare_04" ID="{A90AC261-CDCE-422B-AD27-7A657C3910A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_foresr_warfare_05" ID="{AEB0BCB2-0FFD-4CBF-8D28-E64DCEEC7F35}" ShortID="868219669">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{27701092-69DA-45F9-A9C8-A7E433406CA1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{72A7ED90-98A5-4BAB-90D4-225DE1E3AE84}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_foresr_warfare_05" ID="{DE763C5F-BF9E-413E-8B73-0954A1A75103}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.5825504423516"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.47592569206621"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_foresr_warfare_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="567714128"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_foresr_warfare_05" ID="{DE763C5F-BF9E-413E-8B73-0954A1A75103}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{1B45AA4C-990D-46A1-AFA1-3097284DFEE5}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="01_map_forest_warfare_Path" ID="{1E35F7E7-C7A7-493A-972A-B894A4AC2FB2}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="30"/>
+												<Property Name="RandomY" Type="Real64" Value="50"/>
+												<Property Name="RandomZ" Type="Real64" Value="60"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="01_map_forest_aircraft" ID="{20210CCC-C2CE-45BE-AA49-D05A19C821D8}" ShortID="47325669">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{88EC8BC9-D4D6-4F49-BCB9-92733FB8E493}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{539A2606-6C74-4219-8F53-8DDB73F5A102}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B67632E7-1C64-4BE1-9433-CDD5BEA8C982}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{46AE3555-3D77-4457-9AEA-331BD1C5E115}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="01_map_foresr_aircraft_01" ID="{61F33BA1-BCFC-4791-B673-EA32B8761623}" ShortID="382167821">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{18CA0034-DC73-408B-B782-C498ECB21519}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8F2AE23F-3418-4A44-8242-671F98FEDC17}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6F7C970E-3FBA-44D3-B4AE-5CFE5D668C94}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ABA0D957-C50F-427F-B59F-6B1E1534FC92}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_foresr_aircraft_02" ID="{98680413-35F0-444E-94A7-A146728BA792}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.09248562357306"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.54980518692922"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_foresr_aircraft_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="132954783"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{9ECBF98A-C6C2-476F-A4F7-6F7D1494BBCF}">
+											<PropertyList>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionUse" Type="bool" Value="False"/>
+											</PropertyList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_foresr_aircraft_02" ID="{98680413-35F0-444E-94A7-A146728BA792}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_foresr_aircraft_02" ID="{24FB0905-D01F-4144-8E9A-7D3ABE19F1E7}" ShortID="700930824">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BC839FB3-F639-40A8-B89F-43AF7A88E7C5}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1672C3DB-654B-4D12-9A69-3CA8F47D469B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F1F45819-A88E-488A-86A9-05D4A16A5530}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_foresr_aircraft_02" ID="{0B96D603-739B-418F-981D-9CEE4596BB0E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.850262699771689"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.60241816495434"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_foresr_aircraft_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="607260692"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_foresr_aircraft_02" ID="{0B96D603-739B-418F-981D-9CEE4596BB0E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_foresr_aircraft_03" ID="{E313D599-D254-4A21-B363-6EEBE1A76A84}" ShortID="166110446">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9365FEF4-024E-4A71-9BFA-C9D92C278CE3}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FA0DF50A-B2C0-47A7-BFD4-1BAE124533DF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{523B04D0-E4C5-497C-8A71-F7D775B86C62}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_foresr_aircraft_03" ID="{E478AF0F-AA9A-4CD4-AE74-ED4984CF07D1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.37906009203767"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.68869060359589"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_foresr_aircraft_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="74557127"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_foresr_aircraft_03" ID="{E478AF0F-AA9A-4CD4-AE74-ED4984CF07D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_foresr_aircraft_04" ID="{9C1C7EF5-BFEF-49CC-B72B-D6D7B6313567}" ShortID="947509028">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C7B59E86-78F1-4FE7-A5FD-2D18159ADD7F}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2C11E48D-3B30-47DF-B806-FAA53C0D884E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{93CEE9CD-F4C6-4B43-A813-309D3E2454B8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_foresr_aircraft_04" ID="{63EAC79A-B940-4429-9158-FE32C9160F9C}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="6.66873369720321"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.24259528396119"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="8.25944081763699"/>
+												<Property Name="TrimEnd" Type="Real64" Value="17.7425024971461"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_foresr_aircraft_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="887523293"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_foresr_aircraft_04" ID="{63EAC79A-B940-4429-9158-FE32C9160F9C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{88808671-6C2F-4979-8FED-F2E688C84E42}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="01_map_forest_aircraft_Path" ID="{47EC6CEB-E113-4976-AD15-27F8175B6D4C}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="20"/>
+												<Property Name="RandomY" Type="Real64" Value="80"/>
+												<Property Name="RandomZ" Type="Real64" Value="30"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-1E-05</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="01_map_forest_animals" ID="{9C4B2956-2A9C-42AD-B01C-CE96F8931E15}" ShortID="360709975">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{893402F3-3460-4184-ADA7-6A3E8EF7CFE8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{6AE95EC3-8BB1-4C59-8561-09D1D17A4128}" ShortID="904672813">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="50"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{264BD344-B3D8-488D-9E76-80858C946C0F}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>50</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{24994009-02CE-4DAB-8751-B750FEBBFBEC}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>5</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>32</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>50</XPos>
+																	<YPos>40</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="01_map_forest_cow" ID="{DF3E7E91-EFDF-4887-AD26-F66C7E8F9D7B}" ShortID="427821040">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_cow" ID="{659EAF14-32B3-4DB2-A5BD-C8A8E576DF5A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.101793884813712"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0678625898758076"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.46099208366621"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.88707967172634"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_cow.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1051341430"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_cow" ID="{659EAF14-32B3-4DB2-A5BD-C8A8E576DF5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_elephant" ID="{8B6B2BF4-7447-48BF-B2F2-1B65F16AEEC9}" ShortID="300343964">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_elephant" ID="{5BA2EE95-CB8B-4884-A9F0-BAC6E2BA3377}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.261270971021861"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.186622122158472"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.2627438448689"/>
+												<Property Name="TrimEnd" Type="Real64" Value="8.36067107269955"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_elephant.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="74250698"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_elephant" ID="{5BA2EE95-CB8B-4884-A9F0-BAC6E2BA3377}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_monkey" ID="{696E70DA-73E3-4A6E-8DE3-CC4880FED8B9}" ShortID="149816593">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_monkey" ID="{02D74979-396E-4E30-847E-AC8026CB9B01}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.292088023821628"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.59428861936234"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_monkey.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="692572970"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_monkey" ID="{02D74979-396E-4E30-847E-AC8026CB9B01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_tiger" ID="{7A60B006-087E-49F9-8B74-C28310B41A5D}" ShortID="44805532">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_tiger" ID="{56F883BE-432A-4D31-953F-41D5189CCE06}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0836662066962016"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0732079308591764"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.57673033626262"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_tiger.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="306061566"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_tiger" ID="{56F883BE-432A-4D31-953F-41D5189CCE06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="01_map_forest_wolf" ID="{5A322469-2C19-4D7B-9901-9B7D948A708D}" ShortID="382209210">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01_map_forest_wolf" ID="{5C8C22E4-7A9B-49B3-A030-C32B8C89D10B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.251556394799913"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.46118672379984"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="9.30758660759678"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\01_map_forest\01_map_forest_wolf.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="424145403"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01_map_forest_wolf" ID="{5C8C22E4-7A9B-49B3-A030-C32B8C89D10B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{AFE8B93A-DDBD-482D-AD18-8524B40108E7}">
+									<ChildrenList>
+										<Path2D Name="01_map_forest_animals_Path" ID="{08A8A9A3-C825-4FB0-83CE-DF408AE9DB57}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="50"/>
+												<Property Name="RandomY" Type="Real64" Value="10"/>
+												<Property Name="RandomZ" Type="Real64" Value="50"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59284C8D-DB19-4AC2-9AB6-FB17F107C43E}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Taras" ID="{59284C8D-DB19-4AC2-9AB6-FB17F107C43E}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="unit_chmonya_ne_vorog" ID="{49E1DC41-7D2C-4E91-BFDE-5ED17847E637}" ShortID="775844547">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

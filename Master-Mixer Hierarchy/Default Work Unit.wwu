@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{CF91CFF8-B9F6-481F-9D84-5192356EDC74}" WorkUnitID="{5B0FF07F-1D22-4735-8537-F4206C7913B3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="080_amb_maps" ID="{68FC8640-4257-4FCB-A61A-CEFC207B6F29}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="090_music" ID="{87AEF490-56F7-4DB6-8A8F-D08EE6640749}"/>
+						<Bus Name="030_gui" ID="{5E8077D1-01BF-4C53-942E-4552ADC4E456}"/>
+						<Bus Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}"/>
+						<Bus Name="060_unit_npc" ID="{792DCAC1-4B07-498B-81C9-BA6B8FAA93FF}"/>
+						<Bus Name="100_lobby" ID="{C76E6061-1B0A-4F0B-8BF6-773B5A04EB0D}"/>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="Default_Motion_Device" ID="{DAFDFA1C-57FD-4A1E-BE51-329DF80808F4}" WorkUnitID="{5B0FF07F-1D22-4735-8537-F4206C7913B3}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
