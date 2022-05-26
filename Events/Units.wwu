@@ -100,6 +100,51 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="unit_tro_attack_normal" ID="{3AB2D50E-2F80-49F4-B1F2-850594DB08A9}">
+							<ChildrenList>
+								<Action Name="" ID="{C7FFADF1-3BB8-4533-89FE-7E9048CB02FC}" ShortID="515776764">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="unit_tro_attack_normal" ID="{2E2540BA-7984-4A37-997E-440E51F8FA74}" WorkUnitID="{E6CFB80A-31E4-4FB3-9449-C29B07073574}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="unit_tro_attack_ultra" ID="{C2196323-B983-4A42-BF3D-8A100326379F}">
+							<ChildrenList>
+								<Action Name="" ID="{0BD6E661-2A85-42CA-89D4-8D165ACAF6B3}" ShortID="1024976634">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="unit_tro_attack_ultra" ID="{2692ABA8-437B-4D93-BD48-2BC04B38629C}" WorkUnitID="{E6CFB80A-31E4-4FB3-9449-C29B07073574}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="unit_tro_death" ID="{53BD8C17-66F9-4A70-90F5-66F67EFBB4E3}"/>
+						<Event Name="unit_tro_hit_normal" ID="{9F84EC4C-FC92-4D54-9A17-98387848730D}">
+							<ChildrenList>
+								<Action Name="" ID="{6F8DFBE3-C4D4-48AE-AB11-B280203BAEFA}" ShortID="1024341339">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="unit_tro_hit_normal" ID="{C6F620D5-037F-4FA8-A06E-6E94EC7EDB7A}" WorkUnitID="{E6CFB80A-31E4-4FB3-9449-C29B07073574}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="unit_tro_hit_ultra" ID="{F048BA0C-29C3-41A0-BA75-D7FF00821904}">
+							<ChildrenList>
+								<Action Name="" ID="{58035615-6725-44D4-A099-C181A8084E8A}" ShortID="225186773">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="unit_tro_hit_ultra" ID="{7338E887-2F7D-4941-80FA-651449B55188}" WorkUnitID="{E6CFB80A-31E4-4FB3-9449-C29B07073574}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

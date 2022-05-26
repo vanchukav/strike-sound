@@ -14,6 +14,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="unit_babka" ID="{F6D7DAB4-1D8D-4B9C-8CFA-E8D9AC02D2AC}" ShortID="536742531">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
@@ -548,6 +552,350 @@
 														<ActiveSource Name="unit_babka_hit_ultra" ID="{91CA5F81-175C-4920-9B6A-29FA1E317827}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="unit_tro" ID="{54D45E59-0BC9-465A-B866-E9DF64491C2F}" ShortID="631219830">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Folder Name="attack" ID="{9A5B9E23-5B91-4DB8-A241-D4B013A794B6}" ShortID="267453878">
+									<ChildrenList>
+										<RandomSequenceContainer Name="unit_tro_attack_normal" ID="{2E2540BA-7984-4A37-997E-440E51F8FA74}" ShortID="258856165">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="tro_attack_normal" ID="{3261C24F-6893-42F3-AFFB-7AF982390DED}" ShortID="724093140">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Javelin_Shot_test" ID="{40C6FE82-8386-4ED7-8DCD-0BBC361EE64C}">
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\Javelin_Shot_test.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="487345912"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Javelin_Shot_test" ID="{40C6FE82-8386-4ED7-8DCD-0BBC361EE64C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="unit_tro_attack_ultra" ID="{2692ABA8-437B-4D93-BD48-2BC04B38629C}" ShortID="467561061">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="tro_attack_ultra" ID="{C7D3F365-81C9-487F-9C70-66BCF5D7488D}" ShortID="371705695">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chmonia_Shoot" ID="{7712D5A6-3917-450E-BB39-FB33B94B10BC}">
+															<PropertyList>
+																<Property Name="TrimBegin" Type="Real64" Value="0.639"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\Chmonia_Shoot.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="208057292"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chmonia_Shoot" ID="{7712D5A6-3917-450E-BB39-FB33B94B10BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="hit" ID="{D236BD4A-BCE2-4416-9351-869D7A25C802}" ShortID="659137259">
+									<ChildrenList>
+										<BlendContainer Name="unit_tro_hit_normal" ID="{C6F620D5-037F-4FA8-A06E-6E94EC7EDB7A}" ShortID="374496506">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{96350500-6793-4E99-9DE7-A57B24477B08}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="0.05"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="unit_tro_hit_normal_debree" ID="{F0C65D7A-D42E-4126-945D-A8CAB55B9509}" ShortID="548372510">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.1</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{F01933A8-68D3-46AD-BA47-3B6348522D97}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="0.05"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="unit_tro_hit_normal_2" ID="{3EB6104A-CEA6-447D-99AC-F49CA3DD7F80}" ShortID="964799577">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="tro_hit_normal_2" ID="{7F46653B-00C8-4EAA-8C6C-4B0433C8879D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\tro_hit_normal_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1061371086"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="tro_hit_normal_2" ID="{7F46653B-00C8-4EAA-8C6C-4B0433C8879D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="unit_tro_hit_normal_1" ID="{3653352E-C615-485E-B7D9-79E81B1CDF0A}" ShortID="248504212">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="tro_hit_normal" ID="{14B86134-5180-460F-A4FE-E70F832A83E3}">
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\tro_hit_normal.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="378520195"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="tro_hit_normal" ID="{14B86134-5180-460F-A4FE-E70F832A83E3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="tro_hit_normal_punch" ID="{7D715C88-EE55-491E-92CC-C64076DE98DE}" ShortID="749204598">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="tro_hit_normal_punch" ID="{D5A9C955-F1AF-4C8F-929B-A668229DEC81}">
+															<PropertyList>
+																<Property Name="TrimBegin" Type="Real64" Value="0.12"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\tro_hit_normal_punch.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1070652679"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="tro_hit_normal_punch" ID="{D5A9C955-F1AF-4C8F-929B-A668229DEC81}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="unit_tro_hit_ultra" ID="{7338E887-2F7D-4941-80FA-651449B55188}" ShortID="892726211">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="unit_tro_hit_ultra_punch" ID="{FDDAB620-D50B-426D-A45B-0095D6A39E00}" ShortID="125249920">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="unit_tro_hit_ultra_punch" ID="{D0573FA0-766A-4BA8-9E54-12A4946B69DD}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.317346867042072"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.704"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\unit_tro_hit_ultra_punch.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="616352193"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="unit_tro_hit_ultra_punch" ID="{D0573FA0-766A-4BA8-9E54-12A4946B69DD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<RandomSequenceContainer Name="unit_tro_hit_ultra" ID="{F4178D3D-B3AF-4565-8D34-407E6B378DEA}" ShortID="426805511">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.1</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{79F364B2-5B9A-42F4-9998-7CD890DF1676}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="0.05"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="unit_tro_hit_ultra_debree" ID="{24416CA7-845C-4D53-9203-D8A6B85A432E}" ShortID="947341389">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_tro_hit_ultra_debree" ID="{5DF68696-9465-473D-9EDF-39B66D09DBEC}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0669846849108712"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0127589876020708"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.257"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.66197"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_tro_hit_ultra_debree.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1037691113"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_tro_hit_ultra_debree" ID="{5DF68696-9465-473D-9EDF-39B66D09DBEC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="unit_tro_hit_ultra_debree01" ID="{3CF531CC-1AF5-4566-8B0C-799CBDF397D7}" ShortID="1032529680">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="040_unit_pc" ID="{D4746339-8B6F-483C-B044-4DF03613F7A9}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_tro_hit_ultra_debree2" ID="{DA9B1D01-35A4-4DB1-923C-EFDC1E08BC5D}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.157524384885765"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.936394954598711"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.759"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="3.171"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_tro_hit_ultra_debree2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="224494766"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_tro_hit_ultra_debree2" ID="{DA9B1D01-35A4-4DB1-923C-EFDC1E08BC5D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</BlendContainer>
 									</ChildrenList>
