@@ -902,6 +902,600 @@
 								</Folder>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="unit_zsu" ID="{81ECBA0F-E7DC-4364-B1B1-8D636A551341}" ShortID="135136810">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Folder Name="attack" ID="{35CE4441-E093-4D98-B497-EB742FEE3C6E}" ShortID="531708939">
+									<ChildrenList>
+										<RandomSequenceContainer Name="unit_zsu_attack_ultra" ID="{4F8666F2-9987-4087-BFC7-D1CA4E0B092D}" ShortID="1058051508">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="zsu_attack_ultra" ID="{CD21318E-E641-4B61-9EB8-0592AE820467}" ShortID="458215481">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-13</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="zsu_attack_ultra" ID="{AD5271A9-ACE4-498E-B38A-311A9DFB656F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.084068586338645"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="4.48365793806107"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.2719327182928"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\zsu_attack_ultra.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="199861433"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="zsu_attack_ultra" ID="{AD5271A9-ACE4-498E-B38A-311A9DFB656F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="unit_zsu_attack_normal" ID="{9AC39312-A946-4A7C-97D1-1E161654AF02}" ShortID="789747802">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="zsu_attack_normal" ID="{FA8C920B-D18F-43CF-BF5F-DF7BC8501AF9}" ShortID="159521884">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="zsu_attack_normal" ID="{6CE07B4F-F241-4381-A10F-A2832B271D0A}">
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\zsu_attack_normal.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="248586181"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="zsu_attack_normal" ID="{6CE07B4F-F241-4381-A10F-A2832B271D0A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="hit" ID="{C52BC698-D600-4F4E-98D3-DF3136B61E5D}" ShortID="235910661">
+									<ChildrenList>
+										<BlendContainer Name="unit_zsu_hit_ultra" ID="{FF1381C8-C333-4F46-BD43-40DCE2069024}" ShortID="1059514799">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="unit_zsu_hit_ultra" ID="{6576CF0B-9480-4FE6-9889-1AF10B1171A0}" ShortID="122986217">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>1.6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="unit_zsu_hit_ultra_debree" ID="{5B2EC0A2-C859-4829-86F0-5C5F6E2ECA89}" ShortID="416460771">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_zsu_hit_ultra" ID="{DBA6F3EA-D9A2-4A44-A04C-2BC656C63D0F}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.141508151398402"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.79917506777968"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.91102482876713"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_zsu_hit_ultra.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="709731148"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_zsu_hit_ultra" ID="{DBA6F3EA-D9A2-4A44-A04C-2BC656C63D0F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="unit_zsu_hit_ultra_debree_01" ID="{D4308B83-A2E0-4660-BD62-1A13AA122500}" ShortID="236278146">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_zsu_hit_ultra" ID="{C3DDE67B-FF00-4F45-8C11-654FC0A5CB5F}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.222369952197489"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.2129270119863"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="3.94201278895548"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="6.48915951412671"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_zsu_hit_ultra.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="82130648"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_zsu_hit_ultra" ID="{C3DDE67B-FF00-4F45-8C11-654FC0A5CB5F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="unit_zsu_hit_ultra_debree_02" ID="{6CDF65E7-C8FC-49A3-96E6-70FC76621D3A}" ShortID="686322173">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_zsu_hit_ultra" ID="{233F85BB-E478-4F82-A9F5-802CC42846FC}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.181939051797945"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="2.10240682077626"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="7.45950112371576"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="11.2600057612728"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_zsu_hit_ultra.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="865441609"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_zsu_hit_ultra" ID="{233F85BB-E478-4F82-A9F5-802CC42846FC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="zsu_attack_ultra_base" ID="{71EF94B0-8289-4254-BB71-D733333919FD}" ShortID="240658284">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{7488FBCF-E412-4F09-A9FE-9ED3CA0EA80E}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>37</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{C735060B-BAC0-48B3-B66C-8EF749CB933A}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>480</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="zsu_attack_ultra_base_01" ID="{808C5A1D-ABFF-4CAC-BA06-C9C4F6B0DEAF}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.5075799086758"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.573194444444445"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.23781392694064"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\zsu_attack_ultra_base_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="361889245"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="zsu_attack_ultra_base_01" ID="{808C5A1D-ABFF-4CAC-BA06-C9C4F6B0DEAF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="unit_zsu_hit_normal" ID="{2243ABDA-131A-4F2D-B29C-3A99E87C5B49}" ShortID="962707575">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="unit_zsu_hit_normal_debree" ID="{5B4A9C84-3382-4C54-BF1F-87325B9DB93F}" ShortID="383668369">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.5</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{7974DAAA-1EB6-4FF2-A1E4-0E1368214F52}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="0.05"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{3A886C65-D950-4351-9798-781711157C05}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="26"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{741EE239-D555-466B-9C13-525AE8CB2DB2}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="200"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="unit_zsu_hit_normal_01" ID="{62F07D42-CA85-47F5-89F9-EAA43282FEA6}" ShortID="442833995">
+															<PropertyList>
+																<Property Name="MakeUpGain" Type="Real64">
+																	<ValueList>
+																		<Value>-10</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_zsu_hit_normal_01" ID="{C800DB54-0405-4DFE-873D-FED41868D357}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.34984794550648"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.474741654513685"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.61508274619006"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_zsu_hit_normal_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="980505741"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_zsu_hit_normal_01" ID="{C800DB54-0405-4DFE-873D-FED41868D357}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="unit_zsu_hit_normal_02" ID="{C85CB968-E2BF-4E44-B42A-BBD46CE1E217}" ShortID="347571457">
+															<PropertyList>
+																<Property Name="MakeUpGain" Type="Real64">
+																	<ValueList>
+																		<Value>-10</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_zsu_hit_normal_01" ID="{139B3520-681A-4C9C-A5B2-66E14851F59A}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.31369130410899"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="3.67538863758304"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="5.8564472255364"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_zsu_hit_normal_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="650683554"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_zsu_hit_normal_01" ID="{139B3520-681A-4C9C-A5B2-66E14851F59A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="unit_zsu_hit_normal_03" ID="{DD76CFC2-4DF1-40E5-8696-786E1B20DEB5}" ShortID="990712067">
+															<PropertyList>
+																<Property Name="MakeUpGain" Type="Real64">
+																	<ValueList>
+																		<Value>-10</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_zsu_hit_normal_01" ID="{30FE6B19-11D0-48D2-86D6-6C9C8C697A1D}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.626715117556581"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="7.1913124532035"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="8.3489440984952"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_zsu_hit_normal_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="841496283"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_zsu_hit_normal_01" ID="{30FE6B19-11D0-48D2-86D6-6C9C8C697A1D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="unit_zsu_hit_normal_04" ID="{11F50C21-ABC3-49EC-BE47-EE6601ECE022}" ShortID="728077428">
+															<PropertyList>
+																<Property Name="MakeUpGain" Type="Real64">
+																	<ValueList>
+																		<Value>-10</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_zsu_hit_normal_01" ID="{ECD4D0AA-BA56-4861-95E2-C050B71C3ECE}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.747237255548232"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="12.7036731022442"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="14.675427662199"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_zsu_hit_normal_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="53987963"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_zsu_hit_normal_01" ID="{ECD4D0AA-BA56-4861-95E2-C050B71C3ECE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="unit_zsu_hit_normal_05" ID="{F8E4D3A5-C71C-42A2-88D3-EF3F592BBD3D}" ShortID="225606412">
+															<PropertyList>
+																<Property Name="MakeUpGain" Type="Real64">
+																	<ValueList>
+																		<Value>-10</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="unit_zsu_hit_normal_01" ID="{3E296B59-0E9F-4083-B80E-8B2989C5540D}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.783393896945725"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="16.1499252161763"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="17.7048465324402"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Units\units_pc\unit_zsu_hit_normal_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="188780786"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="unit_zsu_hit_normal_01" ID="{3E296B59-0E9F-4083-B80E-8B2989C5540D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="unit_zsu_hit_normal_punch" ID="{C3A1D9D2-D73C-47F5-BFDF-EA02D781C39B}" ShortID="862126993">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>150</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="unit_zsu_hit_normal_panch-glued render 001" ID="{BCDD557B-7032-4A70-B413-481C82C75842}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.195503331469574"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.73176276675054"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Units\units_pc\unit_zsu_hit_normal_panch-glued render 001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="759955669"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="unit_zsu_hit_normal_panch-glued render 001" ID="{BCDD557B-7032-4A70-B413-481C82C75842}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</Folder>
+								<Sound Name="unit_zsu_death" ID="{DD1AA614-D014-4FB0-8421-8DF8C3324881}" ShortID="882175439">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="unit_zsu_death" ID="{E877A430-92C1-4E72-A027-E3D927993474}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0145067317192753"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.132373926938387"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Units\units_pc\unit_zsu_death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="590603912"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="unit_zsu_death" ID="{E877A430-92C1-4E72-A027-E3D927993474}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

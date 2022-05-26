@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1DA4EDFB-EB5D-41FC-82F4-415DFCCE3056}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Maksim" ID="{1DA4EDFB-EB5D-41FC-82F4-415DFCCE3056}" PersistMode="Standalone"/>
+		<WorkUnit Name="Maksim" ID="{1DA4EDFB-EB5D-41FC-82F4-415DFCCE3056}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="units_pc" ID="{773BB20A-A6B8-4EDA-900D-A31618620B9F}" ShortID="818289740">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EAB8BAD3-3734-4A67-AB8C-8B49867BABAA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F15E4CF5-AEF8-4F73-BBB4-D9559FD9B352}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
